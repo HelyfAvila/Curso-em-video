@@ -8,7 +8,7 @@
     <style>
         body{
             background-color: rgb(105, 105, 173);/*cor de fundo*/
-            color: white; /*cor da fonte*/
+            color: white; /*cor da fonte*/ /*Comentário em css*/
             font: normal 25pt Arial;/*tipo de fonte, tamanho*/
         
         }
@@ -18,12 +18,13 @@
     </style><!--Style (estilo) configurado dentro do cabeçalho-->
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> <!--Comentário em html-->
     <p>Já me livrei da maldição!</p>
     <script>
-        alert('Minha primeira mensagem');
-        prompt('Qual o seu nome? ');
-        confirm('Está gostando de JS?');
+        
+        var nome = prompt('Qual o seu nome? '); //Vai receber o nome...
+        alert(`Olá, ` + nome + `,` + ` é um grande prazer te conhecer!`); //Sai o nome acompanhado de frase, feito atráves do + que significa concatenação
+        //Comentário em js
     </script>
 
 </body>
