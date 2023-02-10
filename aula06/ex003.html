@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 Aula</title>
+    <style>
+        body{
+            background-color: rgb(105, 105, 173);/*cor de fundo*/
+            color: white; /*cor da fonte*/ /*Comentário em css*/
+            font: normal 25pt Arial;/*tipo de fonte, tamanho*/
+        
+        }
+        h1 {
+            color: rgb(255, 212, 22);
+        }
+    </style><!--Style (estilo) configurado dentro do cabeçalho-->
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> <!--Comentário em html-->
+    <p>Já me livrei da maldição!</p>
+    <script>
+        
+        var n1 = Number(prompt(`Digite um número: `)); //Vai receber 1 número
+        var n2 = Number(prompt(`Digite outro número: `)); //Vai receber 2 número
+        var s = (n1 + n2);
+        alert(`A soma entre ${n1} e ${n2} é igual a ${s}`);
+        // (number + number) para adição
+        // (string + string) para concatenação
+        //Conversão anteriormente era feito para números inteiros atráves :
+        // Number.parseInt(n)
+        //Conversão anteriormente era feito para números com vírgulas: 
+        // Number.parseFloat()
+        //Detalhe: vale lembrar que não utilizamos mais esse método, agora o 
+        //mais comum seria utilizar o Number.
+    </script>
+
+</body>
+</html>
