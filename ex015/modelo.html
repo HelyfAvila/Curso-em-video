@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento:
+            <input type="number" name="txtano" id="txtano" min="0"> <!--min é o valor mínimo permitido para entrada-->
+            </p>
+            <p>Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem"> <!--checked você deve colocar em somente um desses -->
+            <label for="fem">Feminino</label> <!--Utilizando para fazer seleção por meio de bolinhas-->
+            </p>
+            <p>
+                <input type="button" value="Verificar" onClick="Calcular()"> <!--Botão, deve se atribuir o valor, ou seja nome somente -->
+            </p> <!--Botão descrito acima relacionado ao evento onClick ou seja, evento em js, para que assim que seja clicado em botão o 
+            evenro seja acionado-->
+        
+        
+        </div>
+        <div id="res">
+            Preencha os dados acima para obter o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
