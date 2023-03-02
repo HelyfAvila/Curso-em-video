@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <section>
+        <div id="dados">
+        <p> Início:
+            <input type="Number" name="txtIni" id="txtIni" >  
+        </p>
+        <p>Fim:
+            <input type="Number" name="txtFim" id="txtFim" >
+        </p>
+
+        <p>Passo:
+            <input type="Number" name="txtPasso" id="txtPasso" >
+        </p>
+        
+        <p>
+          <input type="button" value="Contar" onClick="Calcular()"> <!--Botão, deve se atribuir o valor, ou seja nome somente -->
+        </p> <!--Botão descrito acima relacionado ao evento onClick ou seja, evento em js, para que assim que seja clicado em botão o 
+        evenro seja acionado-->
+    
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
