@@ -1,4 +1,4 @@
-function Calcular(){
+function Calcular(){ //Tabuda feita por Helyf Avila
     var res = document.getElementById('res');
     var txtNum = document.getElementById('txtNum');
     var num = parseInt(txtNum.value);
